@@ -30,10 +30,13 @@
 
                 // 获奖记录
                 lukyPerson: [
-                  {
-                    id: '2', name: 'LSIJEGKILENKW', type: '2', time: '2020-05-05'
-                  }
-                ]
+                    {
+                      id:256,
+                      who: 'LSIJEGKILENKW',
+                      name: '升星宝石'，
+                      ...
+                    }
+                  ]
               };
             }
           }
