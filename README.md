@@ -6,12 +6,14 @@ title: VnodeLb
 ## 使用
 
 main.js
+
   import Vue from 'vue';
   import VnodeLb from 'VnodeLb';
   
   Vue.use(VnodeLb);
   
 App.vue
+
   <VnodeLb :luky-person.sync="lukyPerson" :config="config">
       <template v-slot="vData">
        <!-- 数据渲染列表 -->
