@@ -2,11 +2,13 @@
 
 ## 使用
 
+npm install vnodelb -S
+
 main.js
 
   ```js
   import Vue from 'vue';
-  import VnodeLb from 'VnodeLb';
+  import VnodeLb from 'vnodelb';
   Vue.use(VnodeLb);
   ```
 
