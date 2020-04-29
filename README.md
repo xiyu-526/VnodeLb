@@ -1,19 +1,17 @@
----
-title: VnodeLb
----
 大数据列表性能优化之虚拟列表
 
 ## 使用
 
 main.js
 
+  ```js
   import Vue from 'vue';
   import VnodeLb from 'VnodeLb';
-  
   Vue.use(VnodeLb);
-  
-App.vue
+  ```
 
+App.vue
+```html
   <VnodeLb :luky-person.sync="lukyPerson" :config="config">
       <template v-slot="vData">
        <!-- 数据渲染列表 -->
@@ -25,8 +23,9 @@ App.vue
         <!-- 数据渲染列表 -->
       </template>
     </VnodeLb>
-
-  <script>
+  ```
+  ```js
+  
       export default {
         data() {
           return {
@@ -49,8 +48,8 @@ App.vue
           };
         }
       }
-  </script>
-
+  
+```
 > 当前中文版本暂不提供打包发行版, 可以直接以开发模式启动或自行打包.
 
 ## 参数说明
