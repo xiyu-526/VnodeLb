@@ -5,7 +5,7 @@
 # VnodeLb 使用说明
     main.js
       import Vue from 'vue';
-      import VnodeLb from 'VnodeLb';
+      import VnodeLb from 'vnodelb';
       
       Vue.use(VnodeLb);
       
@@ -52,7 +52,7 @@
 
     itemHeight: 40 // 滚动行高度 默认50
     sCro: 1, // 0:禁止自动上下滚动 默认为1
-    startsCro: 0, // 控制什么时候开始
+    startsCro: 0, // 控制什么时候开始 默认为1,0：为禁止滚动
     overFlow: 1, // 不允许手指或者鼠标滑动  默认1
     
 @send 点击改变startsCro的值控制是否开始滚动
