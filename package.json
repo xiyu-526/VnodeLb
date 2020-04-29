@@ -1,0 +1,17 @@
+{
+  "name": "vnodelb",
+  "version": "1.1.1",
+  "description": "针对大数据列表滚动性能优化方案",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiyu-526/VnodeLb"
+  },
+  "homepage": "https://github.com/xiyu-526/VnodeLb/blob/master/README.md",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
