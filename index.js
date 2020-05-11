@@ -5,5 +5,4 @@ const VnodeLb = {
     vm.component('VnodeLb', VLcomponent);
   }
 }
-
 export default VnodeLb;
